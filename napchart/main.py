@@ -93,13 +93,13 @@ class Chart:
         """
         self.elements[element.id] = element
 
-    def remove_element(self, element: Element):
+    def remove_element(self, element_id: str):
         """
         Remove element from chart
         :param element: Element to be removed
         :return: None
         """
-        del self.elements[element.id]
+        del self.elements[element_id]
 
     def lock_lane(self, lane: int):
         """
