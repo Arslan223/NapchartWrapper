@@ -26,7 +26,7 @@ cd NapchartWrapper
 ./setup.py install
 ```
 
-## Usage
+## Getting started
 Example 1
 ```python
 from napchart import Chart, Element, format_time
@@ -145,7 +145,7 @@ simplify_time
 315
 ```
 
-format_title
+format_time
 ```python
 >>> format_time("13:37") # turns string in format "HH:MM" to minutes (int)
 817
