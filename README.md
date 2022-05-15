@@ -145,7 +145,7 @@ simplify_time
 315
 ```
 
-format_tile
+format_title
 ```python
 >>> format_time("13:37") # turns string in format "HH:MM" to minutes (int)
 817
